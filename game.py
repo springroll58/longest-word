@@ -25,3 +25,4 @@ class Game:
         r = requests.get(f"https://wagon-dictionary.herokuapp.com/{word}")
         response = r.json()
         return response['found']
+
